@@ -4,7 +4,6 @@ import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
-  site: "https://leonalb.github.io",
-  base: "/my-website",
+  site: "https://leon-albert.de",
   integrations: [mdx(), sitemap(), tailwind()],
 });
